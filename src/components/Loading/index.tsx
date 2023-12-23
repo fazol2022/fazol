@@ -1,9 +1,6 @@
 // import NotificationContext from '../../notification/context';
 import React, { useEffect } from 'react';
-import {
-  Hitting,
-  Falling,
-} from 'minimal-components-react/dist/components/Loading/Animation/styles';
+import { Hitting } from 'minimal-components-react/dist/components/Loading/Animation/styles';
 import { IconItem } from 'minimal-components-react/dist/components/Drawer/styles';
 import Animation from 'minimal-components-react/dist/components/Loading/Animation';
 import { default as darkTheme } from '../../styles/themes/dark.json';
