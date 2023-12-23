@@ -38,15 +38,40 @@ const News = (props?: { theme?; news: News }) => {
             height: '100%',
             display: 'flex',
             boxSizing: 'border-box',
+            textOverflow: 'ellipsis',
           }}
         >
-          <Text sizeType={'h1'} weightType={'bolder'}>
-            {props?.news.title}
-          </Text>
+          <div
+            style={{
+              width: 'calc(100% - 270px)',
+              textOverflow: 'ellipsis',
+              display: 'block',
+            }}
+          >
+            <Text
+              sizeType={'h1'}
+              weightType={'bolder'}
+              style={{
+                textOverflow: 'ellipsis',
+                display: 'inline-block',
+                // set width to 100% but in pixels to make overflow work
+                width: 'calc(100%)',
+                maxHeight: '50px',
+                overflow: 'hidden',
+              }}
+            >
+              {props?.news.title}
+            </Text>
+          </div>
           <Text
             sizeType={'h3'}
             weightType={'bolder'}
-            style={{ margin: '20px', textAlign: 'right' }}
+            style={{
+              margin: '20px',
+              textAlign: 'right',
+              width: '270px',
+              textOverflow: 'ellipsis',
+            }}
           >
             {(props?.news?.date as any)?.toLocaleDateString
               ? (props?.news?.date as any)?.toLocaleDateString('pt-BR')
