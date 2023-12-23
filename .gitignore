@@ -1,0 +1,11 @@
+node_modules
+.next
+.js
+!.config.js
+.DS_Store
+.env
+out
+public/sw.js
+public/sw.js.map
+public/workbox-*.js
+public/workbox-*.js.map
