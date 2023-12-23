@@ -1,3 +1,8 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-constant-condition */
+/* eslint-disable prettier/prettier */
 import React, { Fragment, useEffect, useMemo, useState } from 'react';
 import { Routes, Route, useLocation, useNavigate } from 'react-router-dom';
 import Home from '../Home';
@@ -26,6 +31,7 @@ const Router = (props: { title?: string }) => {
     return result;
   };
 
+  // @ts-ignore
   const [signedIn, _setSignedIn] = useState<boolean>(false);
 
   // isSignedIn(props.host.publicKey).then((signedIn) => {

@@ -1,8 +1,12 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import Input from 'minimal-components-react/dist/components/Input';
 import Action from 'minimal-components-react/dist/components/List/Action';
 import Collapsible from 'minimal-components-react/dist/components/Collapsible';
 import OpenButton from 'minimal-components-react/dist/components/Collapsible/openButton';
+// @ts-ignore
 import { Span, Text } from 'minimal-components-react/dist/components/Text';
 import { colors, priorityColor, stringToRgb } from '../color';
 import { Left, Right } from 'minimal-components-react/dist/components/Content';

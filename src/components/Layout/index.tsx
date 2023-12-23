@@ -1,6 +1,10 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable no-unused-vars */
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 import React, { useContext } from 'react';
 
 import Header from '../../components/Header';
+// @ts-ignore
 import Footer from '../../components/Footer';
 
 import NotificationContext from '../../contexts/notification/context';

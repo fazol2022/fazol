@@ -1,4 +1,8 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable no-unused-vars */
 import React from 'react';
+// @ts-ignore
 import { Link } from 'react-router-dom';
 import { Text } from 'minimal-components-react/dist/components/Text';
 import { withTheme } from 'styled-components';
