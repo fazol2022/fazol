@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import styled, { css } from 'styled-components';
 
 export const StyledFooter = styled.footer`
@@ -11,7 +12,8 @@ export const StyledFooter = styled.footer`
   // padding: 5px 24px;
   background: ${(props) => props.theme.background};
   font-size: 12px;
-  mix-blend-mode: ${(props) => (props.menu == 2 ? 'difference' : 'unset')};
+  mix-blend-mode: ${(props) =>
+    (props as any).menu == 2 ? 'difference' : 'unset'};
   position: fixed;
   z-index: 999;
   ${(props) =>

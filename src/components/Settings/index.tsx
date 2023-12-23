@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import React, { useContext, useEffect, useState } from 'react';
 import { LanguageContext } from '../../contexts/language/context';
 import { HostContext } from '../../contexts/host/context';
@@ -210,6 +212,7 @@ const Settings = () => {
   };
 
   return (
+    /* @ts-ignore */
     <Loading
       loading={loading}
       // progress={progress}

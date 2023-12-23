@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { default as langBR } from './langBR.json';
 import {
   createLanguageContext,

@@ -161,6 +161,7 @@ const Header = (props: { title; setTitle; theme? }) => {
       <audio id="music" src="/audio/nyanCat.mp3" loop>
         <source src="/audio/nyanCat.mp3" type="audio/mpeg" />
       </audio>
+      {/* @ts-ignore */}
       <HeaderWrapper menu={menu?.menu}>
         <Drawer
           top={true}

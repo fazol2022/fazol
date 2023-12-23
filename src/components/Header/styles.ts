@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import styled, { css } from 'styled-components';
 
 export const HeaderWrapper = styled.div`
@@ -6,8 +7,9 @@ export const HeaderWrapper = styled.div`
   width: 100%;
   height: fit-content;
   background: ${(props) =>
-    props.menu == 0 ? props.theme.background + 'E0' : 'transparent'};
-  mix-blend-mode: ${(props) => (props.menu == 2 ? 'difference' : 'unset')};
+    (props as any).menu == 0 ? props.theme.background + 'E0' : 'transparent'};
+  mix-blend-mode: ${(props) =>
+    (props as any).menu == 2 ? 'difference' : 'unset'};
   position: fixed;
   z-index: 999;
   ${(props) =>

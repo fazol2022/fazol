@@ -73,6 +73,25 @@ module.exports = pwa({
       string_decoder: require.resolve('string_decoder'),
       sys: require.resolve('util'),
     };
+    // config.entry = {
+    //   pages: [
+    //     './src/pages/_app.tsx',
+    //     './src/pages/[route].tsx',
+    //     './src/pages/index.tsx',
+    //   ],
+    // };
+    // entry function
+    // const originalEntry = config.entry;
+    // config.entry = async () => {
+    //   const entries = await originalEntry();
+    //   if (
+    //     entries['main.js'] &&
+    //     !entries['main.js'].includes('./src/pages/_app.tsx')
+    //   ) {
+    //     entries['main.js'].unshift('./src/pages/_app.tsx');
+    //   }
+    //   return entries;
+    // };
     return config;
   },
 });

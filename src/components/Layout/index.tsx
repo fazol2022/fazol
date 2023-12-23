@@ -39,7 +39,13 @@ const Layout = (props: {
             UserType.client,
             UserType.seller,
             UserType.regular,
-          ]) && <Header setTitle={props?.setTitle} title={props?.title} />}
+          ]) && (
+            <Header
+              // @ts-ignore
+              setTitle={props?.setTitle}
+              title={props?.title}
+            />
+          )}
           {isSignedIn(userContext?.current, [
             UserType.client,
             UserType.seller,

@@ -27,9 +27,11 @@ const Home = (props?: { navigate?; search?: string; setSearch? }) => {
   const [loading, setLoading] = useState(false);
 
   return (
+    /* @ts-ignore */
     <Loading loading={loading}>
       <List vertical search={props?.search} setSearch={props?.setSearch}>
         <News
+          // @ts-ignore
           news={{
             title: 'JHFLSDKJFHLDS',
             date: new Date(),

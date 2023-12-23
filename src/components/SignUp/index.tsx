@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import React, { useContext, useEffect, useRef, useState } from 'react';
 import { LanguageContext } from '../../contexts/language/context';
 import { Text, Error } from 'minimal-components-react/dist/components/Text';
@@ -169,6 +171,7 @@ const SignUp = (_props?: { navigate? }) => {
   };
 
   return (
+    /* @ts-ignore */
     <Loading loading={loading}>
       <Text
         sizeType={'h2'}

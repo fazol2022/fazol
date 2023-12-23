@@ -49,6 +49,7 @@ const Router = (props: { title?: string }) => {
 
   return (
     <Fragment>
+      {/* @ts-ignore */}
       <Layout
         title={title}
         setTitle={setTitle}
@@ -64,6 +65,7 @@ const Router = (props: { title?: string }) => {
                     path=""
                     element={
                       <Home
+                        /* @ts-ignore */
                         navigate={navigate}
                         location={location}
                         type={'place'}
@@ -80,15 +82,21 @@ const Router = (props: { title?: string }) => {
               <>
                 <Route
                   path="signUp"
-                  element={<SignUp navigate={navigate} location={location} />}
+                  element={<SignUp
+                    /* @ts-ignore */
+                    navigate={navigate} location={location} />}
                 />
                 <Route
                   path="signIn"
-                  element={<SignIn navigate={navigate} location={location} />}
+                  element={<SignIn
+                    /* @ts-ignore */
+                    navigate={navigate} location={location} />}
                 />
                 <Route
                   path=""
-                  element={<SignIn navigate={navigate} location={location} />}
+                  element={<SignIn
+                    /* @ts-ignore */
+                    navigate={navigate} location={location} />}
                 />
               </>
             )}

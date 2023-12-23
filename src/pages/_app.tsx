@@ -1,3 +1,5 @@
+/* eslint-disable react/prop-types */
+/* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable filenames/match-regex */
 import React from 'react';
 import GlobalStyle from '../styles/global';
@@ -19,7 +21,7 @@ Router.events.on('routeChangeError', () => {
 });
 
 config({ ssrFadeout: true });
-const App = (props: { Component; pageProps }) => {
+const App = (props) => {
   const page = (
     <>
       <Head>
@@ -66,7 +68,7 @@ const App = (props: { Component; pageProps }) => {
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <props.Component {...props.pageProps} />
+      <props.Component {...(props as any).pageProps} />
       <GlobalStyle />
     </>
   );

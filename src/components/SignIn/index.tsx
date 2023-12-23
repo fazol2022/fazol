@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 import React, { useContext, useEffect, useRef, useState } from 'react';
 import { LanguageContext } from '../../contexts/language/context';
 import { Text, Error } from 'minimal-components-react/dist/components/Text';
@@ -131,6 +132,7 @@ const SignIn = (props?: { navigate? }) => {
   };
 
   return (
+    /* @ts-ignore */
     <Loading loading={loading}>
       <Text
         sizeType={'h2'}

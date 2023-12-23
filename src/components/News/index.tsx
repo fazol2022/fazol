@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 /* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable no-unused-vars */
@@ -47,7 +48,9 @@ const News = (props?: { theme?; news: News }) => {
             weightType={'bolder'}
             style={{ margin: '20px', textAlign: 'right' }}
           >
-            {props?.news.date.toLocaleDateString('pt-BR')}
+            {(props?.news?.date as any)?.toLocaleDateString
+              ? (props?.news?.date as any)?.toLocaleDateString('pt-BR')
+              : props?.news?.date}
           </Text>
         </div>
         <div

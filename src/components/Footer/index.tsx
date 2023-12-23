@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 import React, { useContext, useEffect, useState } from 'react'; //, { useContext } from "react";
 import { StyledFooter } from './styles';
 import { withTheme } from 'styled-components';
@@ -188,6 +189,7 @@ const Footer = (props: { search; setSearch; theme }) => {
   return (
     <StyledFooter>
       {/* <Content> */}
+      {/* @ts-ignore */}
       <HeaderWrapper menu={menu?.menu}>
         <Drawer
           top={false}
