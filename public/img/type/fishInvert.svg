@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 50 50" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<metadata>
+<vectornator:setting key="IsTimeLapseWatermarkDisabled" value="false"/>
+<vectornator:setting key="UndoHistoryDisabled" value="true"/>
+<vectornator:setting key="VNDimensionsVisible" value="true"/>
+<vectornator:setting key="VNSnapToGuides" value="true"/>
+<vectornator:setting key="WDCMYKEnabledKey" value="false"/>
+<vectornator:setting key="WDDisplayWhiteBackground" value="false"/>
+<vectornator:setting key="WDDynamicGuides" value="false"/>
+<vectornator:setting key="WDGuidesVisible" value="true"/>
+<vectornator:setting key="WDIsolateActiveLayer" value="false"/>
+<vectornator:setting key="WDOutlineMode" value="false"/>
+<vectornator:setting key="WDRulersVisible" value="true"/>
+<vectornator:setting key="WDSnapToEdges" value="false"/>
+<vectornator:setting key="WDSnapToGrid" value="false"/>
+<vectornator:setting key="WDSnapToPoints" value="false"/>
+<vectornator:setting key="WDUnits" value="Points"/>
+</metadata>
+<defs/>
+<g id="g25" vectornator:layerName="g25">
+<path d="M47.5 13.6454L38.8141 19.9978C38.8141 19.9978 32.718 15.599 28.5522 13.979C23.9187 12.1767 19.1083 12.1034 14.2659 13.3162C12.003 13.8832 9.08071 16.6851 7.12296 18.6191C5.16636 20.5519 2.50802 24.6453 2.50002 25.1066C2.49088 25.613 5.16636 29.9411 7.12296 31.8751C9.08071 33.8079 12.0305 36.1462 14.2659 36.8461C18.9083 38.2977 24.4193 37.0993 28.5522 35.5205C33.1855 33.7509 38.8141 30.409 38.8141 30.409L47.5 36.3742" fill="#000000" fill-rule="evenodd" opacity="1" stroke="#FFFFFF" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1"/>
+<path d="M13.6179 13.4725C13.6179 13.4725 15.8671 19.9196 15.8671 24.6665L15.8671 24.6665C15.8671 29.0954 13.7334 36.5333 13.7334 36.5333" fill="none" fill-rule="evenodd" opacity="1" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+</g>
+</svg>

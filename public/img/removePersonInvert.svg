@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 50 50" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<metadata>
+<vectornator:setting key="IsTimeLapseWatermarkDisabled" value="false"/>
+<vectornator:setting key="UndoHistoryDisabled" value="true"/>
+<vectornator:setting key="VNDimensionsVisible" value="true"/>
+<vectornator:setting key="VNSnapToGuides" value="true"/>
+<vectornator:setting key="WDCMYKEnabledKey" value="false"/>
+<vectornator:setting key="WDDisplayWhiteBackground" value="false"/>
+<vectornator:setting key="WDDynamicGuides" value="false"/>
+<vectornator:setting key="WDGuidesVisible" value="true"/>
+<vectornator:setting key="WDIsolateActiveLayer" value="false"/>
+<vectornator:setting key="WDOutlineMode" value="false"/>
+<vectornator:setting key="WDRulersVisible" value="true"/>
+<vectornator:setting key="WDSnapToEdges" value="false"/>
+<vectornator:setting key="WDSnapToGrid" value="false"/>
+<vectornator:setting key="WDSnapToPoints" value="false"/>
+<vectornator:setting key="WDUnits" value="Points"/>
+</metadata>
+<defs/>
+<clipPath id="ArtboardFrame">
+<rect height="50" width="50" x="0" y="0"/>
+</clipPath>
+<g clip-path="url(#ArtboardFrame)" id="Untitled" vectornator:layerName="Untitled">
+<path d="M38 13C38 19.9036 32.4036 25.5 25.5 25.5C18.5964 25.5 13 19.9036 13 13C13 6.09644 18.5964 0.5 25.5 0.5C32.4036 0.500001 38 6.09644 38 13Z" fill="#FFFFFF" fill-opacity="0" fill-rule="evenodd" opacity="1" stroke="#FFFFFF" stroke-linecap="square" stroke-linejoin="miter" stroke-width="2.5"/>
+<path d="M0.5 50.5C0.500002 36.6929 11.6929 25.5 25.5 25.5" fill="#FFFFFF" fill-opacity="0" fill-rule="evenodd" opacity="1" stroke="#FFFFFF" stroke-linecap="square" stroke-linejoin="miter" stroke-width="2.5"/>
+<path d="M49 41.5L34 41.5" fill="#FFFFFF" fill-opacity="0" fill-rule="evenodd" opacity="1" stroke="#FFFFFF" stroke-linecap="square" stroke-linejoin="miter" stroke-width="2.5"/>
+</g>
+</svg>

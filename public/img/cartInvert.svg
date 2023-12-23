@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 260 220" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs/>
+<g id="Cart" vectornator:layerName="Cart">
+<g opacity="1">
+<path d="M211.026 206.752C211.026 202.334 214.608 198.752 219.026 198.752C223.444 198.752 227.026 202.334 227.026 206.752C227.026 211.17 223.444 214.752 219.026 214.752C214.608 214.752 211.026 211.17 211.026 206.752Z" fill="#ffffff" fill-opacity="0" fill-rule="evenodd" opacity="1" stroke="#FFFFFF" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="5"/>
+<path d="M51.1914 206.752C51.1914 202.334 54.7734 198.752 59.1914 198.752C63.6094 198.752 67.1914 202.334 67.1914 206.752C67.1914 211.17 63.6094 214.752 59.1914 214.752C54.7734 214.752 51.1914 211.17 51.1914 206.752Z" fill="#ffffff" fill-opacity="0" fill-rule="evenodd" opacity="1" stroke="#FFFFFF" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="5"/>
+<path d="M50.4184 173.847L56.1364 194.622L56.1364 194.622L221.8 194.612" fill="none" opacity="1" stroke="#FFFFFF" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="5"/>
+</g>
+<path d="M59.2724 91.0123L248.916 91.0123L248.916 91.0123L227.082 172.498L227.082 172.498L50.4184 173.847L50.4184 173.847L23.4 73.0123L23.4 73.0123L5 73.0123" fill="none" opacity="1" stroke="#FFFFFF" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="5"/>
+</g>
+</svg>

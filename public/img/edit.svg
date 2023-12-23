@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Vectornator (http://vectornator.io/) -->
+
+<svg
+   height="100%"
+   stroke-miterlimit="10"
+   style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;"
+   version="1.1"
+   viewBox="0 0 50 50"
+   width="100%"
+   xml:space="preserve"
+   id="svg839"
+   sodipodi:docname="edit.svg"
+   inkscape:version="1.1.2 (b8e25be8, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:vectornator="http://vectornator.io"><sodipodi:namedview
+   id="namedview841"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1.0"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   showgrid="false"
+   inkscape:zoom="12.88"
+   inkscape:cx="25"
+   inkscape:cy="25"
+   inkscape:window-width="1920"
+   inkscape:window-height="1052"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Untitled" />
+<metadata
+   id="metadata824">
+<vectornator:setting
+   key="IsTimeLapseWatermarkDisabled"
+   value="false" />
+<vectornator:setting
+   key="UndoHistoryDisabled"
+   value="true" />
+<vectornator:setting
+   key="VNDimensionsVisible"
+   value="true" />
+<vectornator:setting
+   key="VNSnapToGuides"
+   value="true" />
+<vectornator:setting
+   key="WDCMYKEnabledKey"
+   value="false" />
+<vectornator:setting
+   key="WDDisplayWhiteBackground"
+   value="false" />
+<vectornator:setting
+   key="WDDynamicGuides"
+   value="false" />
+<vectornator:setting
+   key="WDGuidesVisible"
+   value="true" />
+<vectornator:setting
+   key="WDIsolateActiveLayer"
+   value="false" />
+<vectornator:setting
+   key="WDOutlineMode"
+   value="false" />
+<vectornator:setting
+   key="WDRulersVisible"
+   value="true" />
+<vectornator:setting
+   key="WDSnapToEdges"
+   value="false" />
+<vectornator:setting
+   key="WDSnapToGrid"
+   value="false" />
+<vectornator:setting
+   key="WDSnapToPoints"
+   value="false" />
+<vectornator:setting
+   key="WDUnits"
+   value="Points" />
+</metadata>
+<defs
+   id="defs826" />
+<clipPath
+   id="ArtboardFrame">
+<rect
+   height="50"
+   width="50"
+   x="0"
+   y="0"
+   id="rect828" />
+</clipPath>
+<g
+   clip-path="url(#ArtboardFrame)"
+   id="Untitled"
+   vectornator:layerName="Untitled">
+<path
+   d="M 0,4.04297 V 50.043 h 46 v -37.52 l -2.5,2.7 v 32.32 h -41 v -41 h 32.297 l 2.5,-2.50003 z"
+   fill="#000000"
+   fill-rule="evenodd"
+   opacity="1"
+   stroke="none"
+   id="path831"
+   sodipodi:nodetypes="ccccccccccc" />
+</g>
+<g
+   clip-path="url(#ArtboardFrame)"
+   id="Untitled_2"
+   vectornator:layerName="Untitled">
+<path
+   d="M27.125 26L23.5 26.5L24 22.875L45.875 1L49 4.125L27.125 26Z"
+   fill="none"
+   fill-rule="evenodd"
+   opacity="1"
+   stroke="#000000"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="2.5"
+   id="path834" />
+<path
+   d="M27.125 26L24 22.875"
+   fill="none"
+   fill-rule="evenodd"
+   opacity="1"
+   stroke="#000000"
+   stroke-linecap="square"
+   stroke-linejoin="miter"
+   stroke-width="2.5"
+   id="path836" />
+</g>
+</svg>
