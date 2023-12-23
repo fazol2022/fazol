@@ -61,7 +61,7 @@ const News = (props?: { theme?; news: News }) => {
           }}
         >
           <img
-            src={'/logos/globo.svg'}
+            src={props?.news?.icon}
             style={{
               // mixBlendMode: 'difference',
               filter: 'grayscale(100%) contrast(200%)',

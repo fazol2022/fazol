@@ -5,6 +5,7 @@ interface News {
   date: Date;
   print: string;
   portalId: string;
+  icon: string;
   type;
 }
 

@@ -27,6 +27,7 @@ const Home = (props?: { navigate?; search?: string; setSearch? }) => {
             title: 'JHFLSDKJFHLDS',
             date: new Date(),
             link: 'https://google.com',
+            icon: '/logos/globo.svg',
           }}
         />
       </List>
