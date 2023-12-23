@@ -1,30 +1,22 @@
 /* eslint-disable react/prop-types */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable filenames/match-regex */
+import './globals.css';
 import React from 'react';
-import GlobalStyle from '../styles/global';
-import config from 'react-reveal/globals';
-import Router from 'next/router';
-import NProgress from 'nprogress';
-import Head from 'next/head';
+
 import 'nprogress/nprogress.css';
 
-//Binding events
-Router.events.on('routeChangeStart', () => {
-  NProgress.start();
-});
-Router.events.on('routeChangeComplete', (_url) => {
-  NProgress.done();
-});
-Router.events.on('routeChangeError', () => {
-  NProgress.done();
-});
+// config({ ssrFadeout: true });
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  // console.log('App props', props);
 
-config({ ssrFadeout: true });
-const App = (props) => {
   const page = (
-    <>
-      <Head>
+    <html lang="pt-br">
+      <head>
         <script
           src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react.min.js"
           defer
@@ -57,6 +49,17 @@ const App = (props) => {
           crossOrigin=""
         />
 
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin=""
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+          rel="stylesheet"
+        />
+
         <meta name="msapplication-TileColor" content="#fff" />
         <meta name="theme-color" content="#fff" />
         <meta name="keywords" content="catalog, catalogo, roupas, clothes" />
@@ -67,12 +70,9 @@ const App = (props) => {
         <meta name="robots" content="index, follow" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </Head>
-      <props.Component {...(props as any).pageProps} />
-      <GlobalStyle />
-    </>
+      </head>
+      <body>{children}</body>
+    </html>
   );
   return page;
-};
-
-export default App;
+}

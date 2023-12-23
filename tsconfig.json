@@ -38,7 +38,12 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "forceConsistentCasingInFileNames": true,
-    "incremental": true
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   },
   "include": [
     "svg.d.ts",
@@ -47,7 +52,8 @@
     "../api/**/*",
     "src/**/*.tsx",
     "**/*",
-    "*"
+    "*",
+    ".next/types/**/*.ts"
   ],
   "exclude": [
     "**/node_modules",

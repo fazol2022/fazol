@@ -1,3 +1,4 @@
+'use client';
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import 'bootstrap/dist/css/bootstrap.css';
 import React, {
@@ -9,10 +10,10 @@ import React, {
 } from 'react';
 import Router from '../components/Router';
 import { BrowserRouter } from 'react-router-dom';
-import {
-  //GetServerSideProps,
-  GetStaticProps,
-} from 'next';
+// import {
+//   //GetServerSideProps,
+//   GetStaticProps,
+// } from 'next';
 import { decode } from 'jsonwebtoken';
 
 import HostModel from '../models/hostModel';
@@ -702,36 +703,4 @@ const Index = (props: { token: string; host: HostModel; handleToken }) => {
   );
 };
 
-// export const getServerSideProps: GetServerSideProps = async () => {
-export const getStaticProps: GetStaticProps = async () => {
-  // const rToken = await token();
-  const props = {
-    props: {
-      host: {
-        config: {},
-        theme: {
-          logos: ['/img/logo.svg', '/img/logoInvert.svg'],
-        },
-        google: {
-          clientId: process.env.GOOGLE_CLIENT_ID || '',
-          key: process.env.GOOGLE_API_KEY || '',
-          geocode: {
-            url:
-              process.env.GOOGLE_GEOCODE_API ||
-              'https://maps.googleapis.com/maps/api/geocode/json',
-            key:
-              process.env.GOOGLE_API_KEY ||
-              process.env.GOOGLE_GEOCODE_API_KEY ||
-              '',
-          },
-        },
-        address: process.env.HOST,
-        authPath: process.env.AUTH,
-        productPath: process.env.PRODUCT,
-      },
-    },
-  };
-  return props;
-  // return {props: {}};
-};
 export default Index;

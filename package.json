@@ -29,6 +29,7 @@
   "dependencies": {
     "@google-cloud/translate": "latest",
     "@midware/mauth": "latest",
+    "@vercel/postgres": "^0.5.1",
     "assert": "latest",
     "axios": "latest",
     "bootstrap": "latest",
@@ -70,8 +71,7 @@
     "tty-browserify": "latest",
     "url": "latest",
     "util": "latest",
-    "vm-browserify": "latest",
-    "workbox-precaching": "latest"
+    "vm-browserify": "latest"
   },
   "devDependencies": {
     "@babel/preset-env": "latest",
@@ -81,8 +81,8 @@
     "@types/react": "latest",
     "@typescript-eslint/eslint-plugin": "latest",
     "@typescript-eslint/parser": "latest",
-    "babel-loader": "latest",
     "babel-jest": "latest",
+    "babel-loader": "latest",
     "babel-plugin-root-import": "latest",
     "babel-plugin-styled-components": "latest",
     "enzyme": "latest",
@@ -95,8 +95,8 @@
     "jest": "latest",
     "jest-cli": "latest",
     "prettier": "latest",
-    "ts-loader": "latest",
     "ts-jest": "latest",
+    "ts-loader": "latest",
     "ts-node": "latest",
     "typescript": "latest"
   }
