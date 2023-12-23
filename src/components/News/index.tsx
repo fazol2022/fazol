@@ -21,7 +21,7 @@ const News = (props?: { theme?; news: News }) => {
       }}
     >
       <div
-        onClick={()=>window.open(props?.news.link, '_blank')}
+        onClick={() => window.open(props?.news.link, '_blank')}
         style={{
           width: '100%',
           height: '100%',
@@ -61,7 +61,12 @@ const News = (props?: { theme?; news: News }) => {
           }}
         >
           <img
-            src={props?.news?.icon}
+            src={
+              props?.news?.icon ||
+              (props?.news?.portalId
+                ? '/logos/' + props?.news?.portalId + '.svg'
+                : '/logos/globo.svg')
+            }
             style={{
               // mixBlendMode: 'difference',
               filter: 'grayscale(100%) contrast(200%)',
