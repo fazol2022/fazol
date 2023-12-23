@@ -1,0 +1,11 @@
+{
+  "WhatsApp": {
+    "href": "https://api.whatsapp.com/send?phone=5585999481376"
+  },
+  "Instagram": {
+    "href": "https://www.instagram.com/wroom/"
+  },
+  "Email": {
+    "href": "mailto: "
+  }
+}

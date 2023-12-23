@@ -1,0 +1,57 @@
+{
+  "sections": {
+    "places": "places",
+    "contact": "contact"
+  },
+  "pages": {
+    "places": "/",
+    "signOut": "",
+    "profile": "/profile"
+  },
+  "modal": {
+    "sign": "sign",
+    "wishlist": "wishlist"
+  },
+  "add": {
+    "places": "/place",
+    "storages": "/storage",
+    "products": "/product"
+  },
+  "tags": {
+    "categories": {
+      "tops": "tops",
+      "bottoms": "bottoms",
+      "onePieces": "onePieces",
+      "sets": "sets"
+    },
+    "styles": {
+      "crops": "crops",
+      "bralettes": "bralettes",
+      "triangles": "triangles",
+      "scoops": "scoops",
+      "body": "body",
+      "cheeky": "cheeky",
+      "highCuts": "highCuts",
+      "brazilians": "brazilians",
+      "tieSides": "tieSides",
+      "hybrids": "hybrids"
+    },
+    "colors": {
+      "black": "black",
+      "grey": "grey",
+      "emerald": "emerald",
+      "navy": "navy",
+      "red": "red",
+      "rust": "rust",
+      "yellow": "yellow",
+      "wishlist": "wishlist"
+    },
+    "sizes": {
+      "xs": "xs",
+      "s": "s",
+      "m": "m",
+      "l": "l",
+      "xl": "xl"
+    }
+  }
+}

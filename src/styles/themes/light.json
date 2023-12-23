@@ -1,0 +1,12 @@
+{
+  "background": "#FEFEFE",
+  "holder": "#E00",
+  "primary": "#E00",
+  "bright": "#FF0000",
+  "error": "#f10",
+  "shadow": "transparent",
+  "hasShadow": false,
+  "font": {
+    "type": "Roboto"
+  }
+}
