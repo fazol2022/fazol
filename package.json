@@ -45,7 +45,6 @@
     "https-browserify": "latest",
     "minimal-components-react": "latest",
     "next": "latest",
-    "next-pwa": "latest",
     "nprogress": "latest",
     "os-browserify": "latest",
     "path-browserify": "latest",
@@ -82,6 +81,7 @@
     "@types/react": "latest",
     "@typescript-eslint/eslint-plugin": "latest",
     "@typescript-eslint/parser": "latest",
+    "babel-loader": "latest",
     "babel-jest": "latest",
     "babel-plugin-root-import": "latest",
     "babel-plugin-styled-components": "latest",
@@ -95,6 +95,7 @@
     "jest": "latest",
     "jest-cli": "latest",
     "prettier": "latest",
+    "ts-loader": "latest",
     "ts-jest": "latest",
     "ts-node": "latest",
     "typescript": "latest"
