@@ -42,8 +42,8 @@ const Loading = (props: {
                   style={{ height: '100px' }}
                   src={
                     props.theme !== darkTheme
-                      ? '/img/fazOL.svg'
-                      : '/img/fazOL.svg'
+                      ? '/img/logo.svg'
+                      : '/img/logoInvert.svg'
                   }
                 />
               </Animation>
