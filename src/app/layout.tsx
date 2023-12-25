@@ -3,7 +3,8 @@
 /* eslint-disable filenames/match-regex */
 import './globals.css';
 import React from 'react';
-
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import 'nprogress/nprogress.css';
 
 // config({ ssrFadeout: true });
@@ -15,7 +16,7 @@ export default function RootLayout({
   // console.log('App props', props);
 
   const page = (
-    <html lang="pt-br">
+    <html lang="pt-BR">
       <head>
         <script
           src="https://cdnjs.cloudflare.com/ajax/libs/react/15.1.0/react.min.js"
@@ -71,7 +72,11 @@ export default function RootLayout({
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        <Analytics />
+        <SpeedInsights />
+      </body>
     </html>
   );
   return page;
