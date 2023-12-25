@@ -3,7 +3,7 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable no-unused-vars */
 /* eslint-disable @typescript-eslint/ban-ts-comment */
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext, useEffect, useRef, useState } from 'react';
 import { LanguageContext } from '../../contexts/language/context';
 // @ts-ignore
 import { Text } from 'minimal-components-react/dist/components/Text';
@@ -12,6 +12,7 @@ import { Text } from 'minimal-components-react/dist/components/Text';
 // import axios from 'axios';
 // @ts-ignore
 import Input from 'minimal-components-react/dist/components/Input';
+// import Paginate from 'minimal-components-react/dist/components/Paginate';
 // import { HostContext } from '../../contexts/host/context';
 // import { UserContext } from '../../contexts/user/context';
 import Loading from '../Loading';
@@ -28,21 +29,57 @@ const Home = (props?: { navigate?; search?: string; setSearch? }) => {
   const language = useContext(LanguageContext);
   // @ts-ignore
   const [loading, setLoading] = useState(false);
+  const [page, setPage] = useState(1);
   const [news, setNews] = useState<any[]>([]);
+  const observerTarget = useRef(null);
 
-  useEffect(() => {
+  const retrieveNews = () => {
     setLoading(true);
-    getNews()
+    console.log('getNews', page);
+    getNews(page)
       .then((response) => {
-        setNews(response);
+        setNews([...news, ...response]);
         setLoading(false);
-        console.log('news', news);
+        setPage(page + 1);
       })
       .catch((error) => {
         console.error(error);
         setLoading(false);
       });
+  };
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          retrieveNews();
+        }
+      },
+      { threshold: 1 }
+    );
+
+    if (observerTarget.current) {
+      observer.observe(observerTarget.current);
+    }
+
+    return () => {
+      if (observerTarget.current) {
+        observer.unobserve(observerTarget.current);
+      }
+    };
+  }, [observerTarget]);
+
+  useEffect(() => {
+    retrieveNews();
   }, []);
+
+  useEffect(() => {
+    console.log('news', news);
+  }, [news]);
+
+  // useEffect(() => {
+  //   console.log('page', page);
+  // }, [page]);
 
   // console.log('props', props);
 
@@ -67,6 +104,7 @@ const Home = (props?: { navigate?; search?: string; setSearch? }) => {
           />
         ))}
       </List>
+      <div ref={observerTarget}></div>
     </Loading>
   );
 };
