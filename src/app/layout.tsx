@@ -63,8 +63,11 @@ export default function RootLayout({
 
         <meta name="msapplication-TileColor" content="#fff" />
         <meta name="theme-color" content="#fff" />
-        <meta name="keywords" content="catalog, catalogo, roupas, clothes" />
-        <meta name="description" content="Catalog store" />
+        <meta
+          name="keywords"
+          content="lula, 2022, pt, partido dos trabalhadores, comunismo, socialismo, amor, amor venceu, o amor venceu, faz o l, faz o l!, faz o lula, faz o lula!, lula 2022, lula presidente, lula presidente 2022, lula 2022 presidente"
+        />
+        <meta name="description" content="Faz o L" />
         <meta name="language" content="Portuguese" />
         <meta name="revisit-after" content="30 days" />
         <meta name="author" content="Faz o L" />
