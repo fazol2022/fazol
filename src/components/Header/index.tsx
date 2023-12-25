@@ -10,7 +10,7 @@ import dynamic from 'next/dynamic';
 import { withTheme } from 'styled-components';
 import { LanguageContext } from '../../contexts/language/context';
 import NotificationContext from '../../contexts/notification/context';
-import { ThemeSetterContext }from '../../contexts/theme/context';
+import { ThemeSetterContext } from '../../contexts/theme/context';
 import Notification from 'minimal-components-react/dist/components/Notification';
 import { default as lightTheme } from '../../styles/themes/light.json';
 // import { default as darkTheme } from '../../styles/themes/dark.json';

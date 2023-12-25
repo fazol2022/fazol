@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
 export const Headline = styled.div`
   width: 100%;
@@ -22,8 +22,12 @@ export const Headline = styled.div`
   @media (min-width: 1200px) {
     .title {
       width: calc(100% - 270px);
-      h1 {
+      font-size: 40px;
+      div {
         font-size: 40px;
+        h1 {
+          font-size: 40px;
+        }
       }
     }
     .date {
@@ -35,8 +39,12 @@ export const Headline = styled.div`
   @media (max-width: 1200px) {
     .title {
       width: calc(100% - 20px);
-      h1 {
+      font-size: 20px;
+      div {
         font-size: 20px;
+        h1 {
+          font-size: 20px;
+        }
       }
     }
     .date {
