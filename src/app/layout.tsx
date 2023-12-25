@@ -67,7 +67,7 @@ export default function RootLayout({
         <meta name="description" content="Catalog store" />
         <meta name="language" content="Portuguese" />
         <meta name="revisit-after" content="30 days" />
-        <meta name="author" content="JL CONSULTING" />
+        <meta name="author" content="Faz o L" />
         <meta name="robots" content="index, follow" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
