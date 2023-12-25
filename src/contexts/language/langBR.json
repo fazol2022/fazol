@@ -368,27 +368,9 @@
     "title": "MAIS VENDIDOS"
   },
   "contact": {
-    "title": "CONTATO",
-    "company": "JL BUSINESS",
-    "city": "Fortaleza/CE",
-    "address": "Rua Q, 295",
-    "neighborhood": "Planalto Itaperi, 60745-670",
-    "location": "https://goo.gl/maps/GWZqo7Zz5qND6HhB7",
-    "phoneNumber": "(85) 3311-9292",
-    "socialMedia": {
-      "WhatsApp": {
-        "text": "&text=Ol%C3%A1,%20cheguei%20aqui%20atrav%C3%A9s%20do%20site.%20Poderia%20me%20ajudar?"
-      },
-      "Instagram": {
-        "text": ""
-      },
-      "Email": {
-        "text": "wroom.contact@gmail.com"
-      }
-    }
   },
   "footer": {
-    "copyright": "JL BUSINESS. 2022 © Todos os direitos reservados — CNPJ: 39.514.176/0001-05"
+    "copyright": "FAZ O L. 2022 © Todos os direitos reservados"
   },
   "format": {
     "locale": "pt-BR",
