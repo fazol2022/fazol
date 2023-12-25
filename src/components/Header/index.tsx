@@ -10,8 +10,11 @@ import dynamic from 'next/dynamic';
 import { withTheme } from 'styled-components';
 import { LanguageContext } from '../../contexts/language/context';
 import NotificationContext from '../../contexts/notification/context';
+import { ThemeSetterContext }from '../../contexts/theme/context';
 import Notification from 'minimal-components-react/dist/components/Notification';
 import { default as lightTheme } from '../../styles/themes/light.json';
+// import { default as darkTheme } from '../../styles/themes/dark.json';
+
 // @ts-ignore
 import { FixedLink, Text } from 'minimal-components-react/dist/components/Text';
 import { default as map } from '../../maps/map.json';
@@ -40,6 +43,7 @@ const Header = (props: { title; setTitle; theme? }) => {
   const menu = useContext(MenuContext);
   // @ts-ignore
   const navigate = useNavigate();
+  const themeSetter = useContext(ThemeSetterContext);
   const location = useLocation();
   const language = useContext(LanguageContext);
   const [navItems, _setNavItems] = useState<IconModel[]>([]);
@@ -175,6 +179,10 @@ const Header = (props: { title; setTitle; theme? }) => {
                     src={logo}
                     alt="invite"
                     style={{ margin: '5px 10px', height: '50px' }}
+                    onClick={() => {
+                      // toggle theme
+                      themeSetter?.toggleTheme?.();
+                    }}
                   />
                 </ItemHolder>
               </List>

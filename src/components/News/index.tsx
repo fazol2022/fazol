@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom';
 import { Text } from 'minimal-components-react/dist/components/Text';
 import { withTheme } from 'styled-components';
 import { News } from './news';
+import { Headline } from './styles';
 
 const News = (props?: { theme?; news: News }) => {
   // const notification = useContext(NotificationContext);
@@ -32,22 +33,8 @@ const News = (props?: { theme?; news: News }) => {
           height: '100%',
         }}
       >
-        <div
-          style={{
-            width: '100%',
-            height: '100%',
-            display: 'flex',
-            boxSizing: 'border-box',
-            textOverflow: 'ellipsis',
-          }}
-        >
-          <div
-            style={{
-              width: 'calc(100% - 270px)',
-              textOverflow: 'ellipsis',
-              display: 'block',
-            }}
-          >
+        <Headline>
+          <div className="title">
             <Text
               sizeType={'h1'}
               weightType={'bolder'}
@@ -64,6 +51,7 @@ const News = (props?: { theme?; news: News }) => {
             </Text>
           </div>
           <Text
+            className="date"
             sizeType={'h3'}
             weightType={'bolder'}
             style={{
@@ -77,7 +65,7 @@ const News = (props?: { theme?; news: News }) => {
               ? (props?.news?.date as any)?.toLocaleDateString('pt-BR')
               : props?.news?.date}
           </Text>
-        </div>
+        </Headline>
         <div
           style={{
             width: '100%',
